@@ -12,5 +12,9 @@ Navigation bar
 Menu
 
 Contact Us
+## How to view
+You can access My Restaurant-Reestar website by visiting [link]
+
+Feel free to explore the content nd get in touch!
 
 
