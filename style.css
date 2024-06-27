@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.section-one__list, .section-one__list li{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: silver;
+}
+.section-one__list li:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+.section-one__title{
+    padding-top: 10px;  
+}
+.section-two{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.section-two, .section-two__imgone, .section-two__imgtwo,.section-two__imgthree,.section-two__imgfour{
+    display: inline-block;
+    vertical-align: top;
+}
+.section-two__imgone, .section-two__imgtwo,.section-two__imgthree,.section-two__imgfour{
+    width: 220px;
+    height: 400px;
+    border: solid black 2px;
+    margin-left: 5px;
+    text-align: center;
+}
+.section-two__title{
+    font-size: 13px;
+    
+}
+.section-two__description{
+    font-size: 14px;
+}
+.section-two__order{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 25px;
+}
+.section-two__order:hover{
+    cursor: pointer;
+    background-color: silver;
+    color: black;
+    border-radius: 10px;
+}
+.section-two__imgone:hover{
+    cursor: pointer;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+.section-two__imgtwo:hover{
+    cursor: pointer;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+.section-two__imgthree:hover{
+    cursor: pointer;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+.section-two__imgfour:hover{
+    cursor: pointer;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+.section-three{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.section-three__table{
+    margin-left: 40%;
+    font-size: 14px;
+}
+.section-three__submit{
+    background-color: goldenrod;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: black;
+}
+.section-three__submit:hover{
+    cursor: pointer;
+    background-color: silver;
+    color: black;
+    border-radius: 10px;
+}
